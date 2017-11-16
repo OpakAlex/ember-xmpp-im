@@ -1,18 +1,18 @@
 import Ember from 'ember';
-import environment from '../config/environment';
+// import environment from '../config/environment';
 
 export default Ember.Controller.extend({
 
 	// BOSH server URL
-	xmmpBoshServer: environment.xmppConfig.xmmpBoshServer,
+	xmmpBoshServer: "http://magtuner.com:5280/http-bind/",
 
 	// Default user jid to login (used for demo)
-	jid: environment.xmppConfig.xmppDefaultUser,
+	// jid: environment.xmppConfig.xmppDefaultUser,
 
 	// Default user password to login (used for demo)
-	password: environment.xmppConfig.xmppDefaultPass,
+	// password: environment.xmppConfig.xmppDefaultPass,
 
-	debugginOn: environment.xmppConfig.debugginOn,
+	// debugginOn: environment.xmppConfig.debugginOn,
 
 	// XMPP XML Raw input data
 	inputData: null,

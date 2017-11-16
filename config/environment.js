@@ -24,7 +24,7 @@ module.exports = function(environment) {
         xmppConfig: {
 
             // URL of Bosh server
-            xmmpBoshServer: 'http://localhost:7070/http-bind/',
+            xmmpBoshServer: 'http://magtuner.com:5280/http-bind/',
 
             xmppDefaultUser: '',
 
